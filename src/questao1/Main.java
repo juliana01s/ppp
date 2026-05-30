@@ -15,7 +15,7 @@ public class Main {
         Celular myGalaxy8 = samsung.constroiCelular("Galaxy8");
         Celular myGalaxyS20 = samsung.constroiCelular("GalaxyS20");
 
-        // só uns testes para ver se o codigo funcionou
+        // testes para ver o codigo funcionando
         System.out.println("teste dos aparelhos Apple");
         myIphoneX.fazLigacao();
         myIphoneX.tiraFoto();
