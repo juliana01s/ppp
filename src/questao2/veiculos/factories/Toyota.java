@@ -24,8 +24,7 @@ public class Toyota implements IVehicleMaker {
 
     /*
      * padrão factory para encapsular a lógica de criação (os "news") dentro da
-     * fábrica, pois assim a
-     * classe Main não precisará conhecer as classes Corolla, Hilux ou Etios.
+     * fábrica, pois assim a classe Main não precisará conhecer as classes Corolla, Hilux ou Etios.
      */
 
     public IVehicle makeVehicle(String modelo) {
